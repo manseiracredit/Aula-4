@@ -198,6 +198,78 @@ if var_x in df.columns and var_y in df.columns:
 
 ---
 
+# Scatter Plot EXTRAS
+"""
+
+distance_from_home = 'distance_from_home'
+ratio_to_median_purchase_price = 'ratio_to_median_purchase_price'
+
+var_x = distance_from_home
+var_y = ratio_to_median_purchase_price
+
+if var_x in df.columns and var_y in df.columns:
+    plt.figure(figsize=(10, 6))
+    sns.scatterplot(x=df[var_x], y=df[var_y], alpha=0.6)
+    plt.title(f'Relação entre {var_x} e {var_y}')
+    plt.xlabel(var_x, fontsize=12)
+    plt.ylabel(var_y, fontsize=12)
+    plt.grid(True, alpha=0.3)
+    plt.show()
+
+used_pin_number = 'used_pin_number'
+ratio_to_median_purchase_price = 'ratio_to_median_purchase_price'
+
+var_x = used_pin_number
+var_y = ratio_to_median_purchase_price
+
+if var_x in df.columns and var_y in df.columns:
+    plt.figure(figsize=(10, 6))
+    sns.scatterplot(x=df[var_x], y=df[var_y], alpha=0.6)
+    plt.title(f'Relação entre {var_x} e {var_y}')
+    plt.xlabel(var_x, fontsize=12)
+    plt.ylabel(var_y, fontsize=12)
+    plt.grid(True, alpha=0.3)
+    plt.show()
+
+online_order = 'online_order'
+ratio_to_median_purchase_price = 'ratio_to_median_purchase_price'
+
+var_x = online_order
+var_y = ratio_to_median_purchase_price
+
+if var_x in df.columns and var_y in df.columns:
+    plt.figure(figsize=(5, 8))
+    sns.scatterplot(x=df[var_x], y=df[var_y], alpha=0.6)
+    plt.title(f'Relação entre {var_x} e {var_y}')
+    plt.xlabel(var_x, fontsize=12)
+    plt.ylabel(var_y, fontsize=12)
+    plt.grid(True, alpha=0.3)
+    plt.xticks([0, 1])
+    plt.show()
+
+online_order = 'online_order'
+ratio_to_median_purchase_price = 'ratio_to_median_purchase_price'
+
+var_x = online_order
+var_y = ratio_to_median_purchase_price
+
+if var_x in df.columns and var_y in df.columns:
+    plt.figure(figsize=(5, 8))
+    sns.scatterplot(x=df[var_x], y=df[var_y], alpha=0.6)
+    plt.title(f'Relação entre {var_x} e {var_y}')
+    plt.xlabel(var_x, fontsize=12)
+    plt.ylabel(var_y, fontsize=12)
+    plt.grid(True, alpha=0.3)
+    plt.xticks([0, 1])
+    plt.ylim(0, 150)
+    plt.show()
+
+"""# Interpretação Scatter Plot Extra
+
+- Preço da compra não tende a aumentar muito se for longe de casa. (Poderia indicar mais gastos durante um viagem)
+- Vimos que compras em valores altos tendem a não usar senha.
+- Percebemos que compras online tendem a ser de maior valor.
+
 # Antes de gerar o boxplot, discutam:
 
 10. Vamos comparar uma variável numérica ( valor_gasto ) entre duas ou mais categorias ( plano_de_assinatura ). Qual categoria nós hipotetizamos que terá a média ou mediana mais alta? Por quê?
