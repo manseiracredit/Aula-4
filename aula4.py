@@ -47,7 +47,7 @@ Colab:
 
 ---
 1.   Olhando para a nossa pergunta de negócio do Encontro 1, qual é a principal história que esperamos que os dados nos contem? O que seria uma descoberta "surpreendente e o que seria uma descoberta "esperada"?      
-      
+
 **-Resp.:**
 * Surpreendente: Seria surpreendente descobrir que não existe uma relação entre compras fraudulentas e os dados daquela compra, ou seja, seria surpreendente desobrir que é impossível prever fraudes.
 * Esperada: É esperado que o principal indicador de fraude seja a distância física entre a compra fraudulenta e a última compra legítima. Também é esperado que fatores como o uso do chip e da senha indiquem que uma compra é legítima.
@@ -60,7 +60,7 @@ Colab:
 ---
 3. Quem seria o público para os nossos gráficos? Um colega técnico, um gerente de produto, um CEO? Como a resposta a essa pergunta poderia mudar o tipo de gráfico que escolhemos ou a forma como o apresentamos?  
 
-**-Resp.:** Executivos de instituições financeiros e clientes que utilizam cartão de crédito. Para executivos, os gráficos podem ser mais técnicos, já para o clientes, precisam ser mais didáticos.
+**-Resp.:** Executivos de instituições financeiros. Os gráficos podem ser mais técnicos, já que os executivos estão acostumados com esses tipos de informação.
 
 ---
 
